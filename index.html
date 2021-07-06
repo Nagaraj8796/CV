@@ -3,146 +3,99 @@
 
 <head>
     <meta charset="utf-8">
-    <title>
-        Nagaraj's Personal site
-    </title>
+    <title>nagaraj-shivayyanavar</title>
 </head>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="favicon.ico">
+<link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@200&family=Sacramento&display=swap"
+    rel="stylesheet">
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img src="data:image/jpeg;base64,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"
-                    alt="Nagaraj Pofile Picture">
-            </td>
-            <td>
-                <h1>Nagaraj Shivayyanavar</h1>
-                <p><em><a href="https://in.linkedin.com/in/nagaraj-shivayyanavar-0b1286143"><strong>AssociateEngineer</strong>
-                            at Collins
-                            Aerospace</em></a></p>
-                <p><em>Aviation Stress Analysis Engineer with 2+ years of experience in Aircarft
-                        Nacelle structures, Composite strength analysis, FEA modelling and
-                        analysis using Hypermesh, PATRAN and NASTRAN, Traditional hand
-                        calculations and Report writing.</em></p>
-                <em><a href="contact.html">Contact Details</a></em>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Education:</h3>
-        <table cellspacing="10">
-        <thead>
-            <th>Graduation</th>
-            <th>Organization</th>
-            <th>Achievements</th>
-        </thead>
-        <tr>
-            <td>Matriculation ( S S L C ), 2012</td>
-            <td>Karnataka High School, Dharwad</td>
-            <td>• Successfully completed with distinction marks. : 92.48%.<br> 
-                • Topped 2nd Rank.</td>
-        </tr>
-        <tr>
-            <td>Pre - University College, 2014</td>
-            <td>J.S.S R.S.Hukkerikar PU COLLEGE, Vidyagiri, 
-                Dharwad</td>
-            <td>• Successfully completed with distinction marks : 90.16%.</td>
-        </tr>
-        <tr>
-            <td>Bachelor of Engineering <br>(Mechanical Engineering), 2018</td>
-            <td><a href="https://www.bvbkletechalumni.org/p/nagaraj-manjunath-shivayyanavar.dz">B.V.B. COLLEGE OF ENGINEERING AND 
-                TECHNOLOGY,<br> VIDYANAGAR, HUBLI</a></td>
-            <td>• Successfully completed with First class with distinction marks : 8.28 
-                CGPA.</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Work Experience :</h3>
-    <table cellspacing='10'>
-        <thead align="left">
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2015 : </td>
-                <td>Intern at<a href="https://www.buses.tatamotors.com/blog/tags/tata-marcopolo/"> Tata Marcopolo
-                        Dharwad</a> </td>
-            </tr>
+    <div class="top-container">
+        <img class="top_cloud" src="./cloud.png" alt="cloud-img">
+        <h1>I am Nagaraj</h1>
+        <h2>
+            <p>an <span class="aero">aerospace</span> engineer</p>
+        </h2>
+        <img class="bot_cloud" src="./cloud.png" alt="cloud-img">
+        <img src="./mountain.png" alt="moutnain-img">
+    </div>
 
-            <tr>
-                <td>2018-Present : </td>
-                <td><a href="https://www.collinsaerospace.com/">Collins Aerospace</a>
-                    <ul>
-                        <li>Coordinate with design, thermal and loads groups to ensure loads and
-                            models are being effectively communicated.</li>
-                        <li>Perform and check various aircraft nacelle parts stress calculations.</li>
-                        <li>Experience in traditional hand calculations, CAD (CATIA, pro-E) and FEA
-                            (Altair Hypermesh, MSC PATRAN, MSC NASTRAN). </li>
-                        <li>Shall have experience in performing stress analysis for composite skin
-                            strength check, joint analysis checks such as Pull through, core crush
-                            (composite sandwich panel structures), joint separation and Bolted
-                            joint stress field model. </li>
-                        <li>Shall have experience in Fatigue strength checks and damage
-                            tolerence checks.</li>
-                        <li>Shall have experience in Bird strike analysis and fire analysis for aircraft
-                            nacelle parts. </li>
-                        <li>Experience in a design and manufacturing organization heavily
-                            involved in aerospace design. </li>
-                        <li>Working within Collins/Raytheon technologies standard procedures
-                            and stress handbook methods.</li>
-                        <li>Two (2) years of functional work experience.</li>
-                    </ul>
-
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Skills :</h3>
-    <table cellspacing='10'>
-        <tr>
-            <td>Team building</td>
-            <td>⚡⚡⚡⚡</td>
+    <div class="middle-container">
+        <div class="profile">
+            <img src="data:image/jpeg;base64,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"
+                alt="Nagaraj Pofile Picture" class="profile_pic">
+            <h2>Hello.</h2>
+            <p><em><a href="https://in.linkedin.com/in/nagaraj-shivayyanavar-0b1286143"><strong>AssociateEngineer</strong>
+                        at Collins
+                        Aerospace </em></a></p>
+            <p class="desc"><em>Aviation Stress Analysis Engineer ✈️ with 2+ years of experience in Aircarft
+                    Nacelle structures, Composite strength analysis, FEA modelling and
+                    analysis using Hypermesh, PATRAN and NASTRAN, Traditional hand
+                    calculations and Report writing 🕮📚.</em></p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="mesh"
+                    src="https://media3.giphy.com/media/efhNR7BB0a9Xx6S0B2/200w.webp?cid=ecf05e47giu0yn5w06iobawzf5ytjtjuaf055n6d9pg44xo0&rid=200w.webp&ct=s"
+                    alt="">
+                <h3>Finite element analysis</h3>
+                <p>Have hands on experience in meshing and performing several FEM checks.</p>
+            </div>
+            <div class="skill-row">
+                <img class="excel"
+                    src="https://media4.giphy.com/media/xvBv5pU4djudjF0ri8/200w.webp?cid=ecf05e474rofc6fvpv8jujv7ao05ilorsi1yqblg0svqu1wp&rid=200w.webp&ct=s"
+                    alt="">
+                <h3>Proficiency in [Microsoft
+                    office]</h3>
+                <p>Have good experience in Excel operations, Documentations and creating presentations</p>
+            </div>
+            <div class="skill-row">
+                <img class="quick"
+                    src="https://media1.giphy.com/media/ZBiX2uwLosvKiiwkqn/200w.webp?cid=ecf05e47kvgl58lj8gapxuallkh09bj3af7bxz5g3f0gkmjr&rid=200w.webp&ct=g"
+                    alt="">
+                <h3>Quick Learner</h3>
+                <p>I learnt coding quickly and utilized it for creating many automation tools. That helped to improve
+                    productivity in my work.</p>
+            </div>
+            <div class="skill-row">
+                <img class="team"
+                    src="https://media0.giphy.com/media/kZhTzZhLseEDQARkUN/giphy.webp?cid=ecf05e47gfvk9o30vmfso2gwx9mb1sqistab68fu9nf8t1mo&rid=giphy.webp&ct=s"
+                    alt="">
+                <h3>Team building</h3>
+                <p>I am a good team player and took many initiatives to enhance the team integrity.</p>
+            </div>
+            <div class="skill-row">
+                <img class="pizza"
+                    src="https://media4.giphy.com/media/3ohzdNwjApMs98ECKA/giphy.webp?cid=ecf05e4758c9uv592vd8wwcymne96ynj1jgrspr78ncunrxr&rid=giphy.webp&ct=s"
+                    alt="">
+                <h3>Pizza Eating Challenge</h3>
+                <p>But My best skill is never getting tired of eating Pizza. I am the unbeaten king in eating Pizza. I
+                    love Peppy Paneer and Veg extravaganza from Dominos alot!.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>If you Love FEM analysis and Pizza as much as I do.</h3>
+            <p>Love Pizza as much as i do? Let's talk about how deliscious they are! We can do design new things while
+                having Pizza together!</p>
+            <a class="btn" href="mailto:nagarajshivayyanavar@email.com">CONTACT ME</a>
+        </div>
+    </div>
 
 
-            <td>Report writing</td>
-            <td>⚡⚡⚡⚡⚡</td>
-        </tr>
-        <tr>
-            <td>Client-focused</td>
-            <td>⚡⚡⚡⚡⚡</td>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://nagthoughts.wordpress.com/">Website</a>
+        <p><span class="foot"> © 2021 Nagaraj Shivayyanavar.</p></span>
+    </div>
 
-            <td>Proficiency in [Microsoft
-                office]</td>
-            <td>⚡⚡⚡⚡</td>
-        </tr>
-        <tr>
-            <td>Quick learner </td>
-            <td>⚡⚡⚡⚡⚡</td>
 
-            <td>Communications</td>
-            <td>⚡⚡⚡⚡⚡</td>
-        </tr>
-        <tr>
-            <td>FEM</td>
-            <td>⚡⚡⚡⚡⚡</td>
-
-            <td>Hand Calculations</td>
-            <td>⚡⚡⚡⚡</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Hobbies:</h3>
-    <ol>
-        <li><a href="https://replit.com/@nagaraj0807/">Coding</a></li>
-        <li><a href="https://nagthoughts.wordpress.com/">Blogging</a></li>
-        <li>Singing</li>
-        <li>Walking</li>
-        <li>Watching Science Documentaries</li>
-    </ol>
 </body>
 
 </html>
